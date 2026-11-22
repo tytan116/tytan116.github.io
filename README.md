@@ -1,22 +1,22 @@
-# tianyitan040116.github.io
+# tytan116.github.io
 
-个人主页，发布后地址为 https://tianyitan040116.github.io
+个人主页，发布后地址为 https://tytan116.github.io
 
 ## 发布步骤
 
-1. 登录 GitHub，新建一个**公开**仓库，名字必须是 `tianyitan040116.github.io`（前提是你的 GitHub 用户名是 `tianyitan040116`）。
+1. 登录 GitHub，新建一个**公开**仓库，名字必须是 `tytan116.github.io`（前提是你的 GitHub 用户名是 `tytan116`）。
 2. 把本文件夹里的文件上传到仓库根目录（网页上点 “Add file → Upload files”，或用下面的命令）：
 
    ```bash
    cd homepage
    git init && git add . && git commit -m "init homepage"
    git branch -M main
-   git remote add origin https://github.com/tianyitan040116/tianyitan040116.github.io.git
+   git remote add origin https://github.com/tytan116/tytan116.github.io.git
    git push -u origin main
    ```
 
 3. 打开仓库的 Settings → Pages，Source 选 “Deploy from a branch”，分支选 `main`、目录 `/ (root)`，保存。
-4. 等 1～2 分钟，访问 https://tianyitan040116.github.io 。
+4. 等 1～2 分钟，访问 https://tytan116.github.io 。
 
 ## 修改内容
 
